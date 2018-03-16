@@ -15,16 +15,15 @@ Ensure all of the following dependencies are installed before proceeding:
 ### macOS
 
 ```bash
-$ git clone https://github.com/fieldrndservices/labssh2-superbuild.git LabSSH2-SuperBuild
-$ cd LabSSH2-SuperBuild
+$ git clone https://github.com/fieldrndservices/labssh2-superbuild.git LabSSH2-SuperBuild && cd $_
 $ ./build.sh
 ```
 
 or
 
 ```bash
-$ git clone https://github.com/fieldrndservices/labssh2-superbuild.git LabSSH2-SuperBuild
-$ cd LabSSH2-SuperBuild
+$ git clone https://github.com/fieldrndservices/labssh2-superbuild.git
+$ cd labssh2-superbuild
 $ mkdir build
 $ cd build
 $ cmake ..
