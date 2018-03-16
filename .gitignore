@@ -1,2 +1,5 @@
 build
+bin
+bin32
+bin64
 .DS_Store
