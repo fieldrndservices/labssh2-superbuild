@@ -6,7 +6,9 @@ LabSSH2-SuperBuild is a [Cmake Super Build](https://blog.kitware.com/cmake-super
 
 ## Build
 
-Building the LabSSH2 shared library (labssh2) will automatically download, configure, and build the correct version of the [OpenSSL](https://www.openssl.org/) project and [LabSSH2-C](https://github.com/fieldrndservices/labssh2-c). It will take some time to complete as the OpenSSL project is fairly large. Ensure all of the following dependencies are installed before proceeding:
+Building the LabSSH2 shared library (labssh2) will automatically download, configure, and build the correct version of the [OpenSSL](https://www.openssl.org/) project and [LabSSH2-C](https://github.com/fieldrndservices/labssh2-c). It will take some time to complete as the OpenSSL project is fairly large. When the entire build is completed, the `labssh2` shared library, either `labssh2.dll`, `labssh2.dylib`, or `labssh2.so`, will be available in the `bin` folder of the root build folder.
+
+Ensure all of the following dependencies are installed before proceeding:
 
 - [CMake 3.10.x](https://cmake.org/), or newer
 - [Microsoft Visual C++ Build Tools 2017](https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017), Windows Only
