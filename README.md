@@ -17,6 +17,14 @@ Ensure all of the following dependencies are installed before proceeding:
 ```bash
 $ git clone https://github.com/fieldrndservices/labssh2-superbuild.git LabSSH2-SuperBuild
 $ cd LabSSH2-SuperBuild
+$ ./build.sh
+```
+
+or
+
+```bash
+$ git clone https://github.com/fieldrndservices/labssh2-superbuild.git LabSSH2-SuperBuild
+$ cd LabSSH2-SuperBuild
 $ mkdir build
 $ cd build
 $ cmake ..
