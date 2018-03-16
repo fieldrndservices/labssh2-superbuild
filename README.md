@@ -1,4 +1,4 @@
-# LabSSH2-SuperBuild - A CMake Super Build for the labssh2-c project
+# LabSSH2-SuperBuild: A CMake Super Build for the labssh2-c project
 
 LabSSH2-SuperBuild is a [Cmake Super Build](https://blog.kitware.com/cmake-superbuilds-git-submodules/) for the [LabSSH2-C](https://github.com/fieldrndservices/labssh2-c) project. The LabSSH2-C project is dependent on the [OpenSSL](https://www.openssl.org/) project and requires numerous flags and options to be set to specific values to build correctly. This project provides an automated build process using [CMake](https://cmake.org) and the [ExternalProject](https://cmake.org/cmake/help/v3.10/module/ExternalProject.html) module.
 
